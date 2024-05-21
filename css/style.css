@@ -42,3 +42,43 @@ main {
     margin-left: 21%;
     margin-bottom: 10px;
 }
+
+/* Main container style */
+.container {
+    padding-top: 15px;
+    padding-left: 50px;
+
+}
+
+/* Two main buttons */
+#blue-button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 0;
+    border-radius: 5px;
+}
+
+#white-button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: grey;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 0;
+    border-radius: 5px;
+}
+
+#line {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: 2px;
+    border: none;
+    background-color: rgb(245, 251, 255);
+}
