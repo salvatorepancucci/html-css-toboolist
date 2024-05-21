@@ -86,7 +86,7 @@ main {
 
 /* List style */
 .list_container {
-    padding-left: 68px;
+    padding-left: 43px;
 }
 
 /* Colored "buttons" style */
@@ -187,7 +187,33 @@ main {
 
 .green-circle {
     color: green;
+    width: 20px;
+    height: 20px;
     background-color: white;
-    border: 1px green;
+    border: 1px solid green;
     border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.red-circle {
+    color: red;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 8px;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
 }
