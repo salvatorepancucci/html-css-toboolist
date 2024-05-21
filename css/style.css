@@ -50,7 +50,7 @@ main {
 
 }
 
-/* Two main buttons */
+/* Two main buttons style */
 #blue-button {
     font-family: Arial, Helvetica, sans-serif;
     background-color: dodgerblue;
@@ -61,6 +61,7 @@ main {
     font-size: 12px;
     margin-top: 0;
     border-radius: 5px;
+    opacity: 80%;
 }
 
 #white-button {
@@ -73,12 +74,113 @@ main {
     font-size: 12px;
     margin-top: 0;
     border-radius: 5px;
+    opacity: 80%;
 }
 
 #line {
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     height: 2px;
     border: none;
     background-color: rgb(245, 251, 255);
+}
+
+/* List style */
+.list_container {
+    padding-left: 68px;
+}
+
+/* Colored "buttons" style */
+.blue {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 0;
+    border-radius: 8px;
+    opacity: 80%;
+}
+
+.purple {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: purple;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 0;
+    border-radius: 8px;
+    opacity: 80%;
+}
+
+.green {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 0;
+    border-radius: 8px;
+    opacity: 80%;
+}
+
+.orange {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 0;
+    border-radius: 8px;
+    opacity: 80%;
+}
+
+.pink {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 0;
+    border-radius: 8px;
+    opacity: 80%;
+}
+
+.yellowgreen {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellowgreen;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 0;
+    border-radius: 8px;
+    opacity: 80%;
+}
+
+/* List title style */
+.list_title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(62, 62, 62);
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.sublist {
+    margin-top: 10px;
+}
+
+.in-between {
+    margin-top: 20px;
 }
